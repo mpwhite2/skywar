@@ -1,0 +1,29 @@
+{
+    "name": "skywar",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "carnival": "github:microsoft/arcade-carnival#v0.0.7",
+        "Game Building Session Tutorials": "github:code-ninjas-home-office/game-building-session-tutorials#d635c80a49cb5323ef731a1303443d432dce0d71",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
