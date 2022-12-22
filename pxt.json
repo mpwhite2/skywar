@@ -1,11 +1,12 @@
 {
-    "name": "skywar",
+    "name": "death star atack 2",
     "description": "",
     "dependencies": {
         "device": "*",
         "carnival": "github:microsoft/arcade-carnival#v0.0.7",
         "Game Building Session Tutorials": "github:code-ninjas-home-office/game-building-session-tutorials#d635c80a49cb5323ef731a1303443d432dce0d71",
-        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1"
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "palette": "*"
     },
     "files": [
         "main.blocks",
@@ -25,5 +26,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
